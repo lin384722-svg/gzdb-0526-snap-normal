@@ -7,7 +7,7 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;background:#f0f4fa;color:#1a2a4a;line-height:1.5}
-.header{background:linear-gradient(135deg,#1a3a6b,#0f2548);color:#fff;padding:24px 20px 20px;position:relative}
+.header{background:linear-gradient(135deg,#1a3a6b,#0f2548);color:#fff;padding:24px 20px 20px}
 .header h1{font-size:22px;font-weight:700;margin-bottom:6px}
 .header .sub{font-size:13px;opacity:.8}
 .header .badges{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
@@ -18,9 +18,9 @@ nav a{color:rgba(255,255,255,.8);text-decoration:none;padding:10px 14px;font-siz
 nav a:hover{color:#fff;background:rgba(255,255,255,.1)}
 .container{max-width:1200px;margin:0 auto;padding:16px}
 .kpi-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px}
-.kpi-card{background:#fff;border-radius:10px;padding:16px 18px;flex:1 1 140px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.kpi-card{background:#fff;border-radius:10px;padding:16px 18px;flex:1 1 130px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
 .kpi-card .label{font-size:12px;color:#5a7a9a;margin-bottom:6px}
-.kpi-card .value{font-size:24px;font-weight:700;color:#1a3a6b}
+.kpi-card .value{font-size:22px;font-weight:700;color:#1a3a6b}
 .kpi-card .sub{font-size:11px;color:#888;margin-top:4px}
 .section{background:#fff;border-radius:10px;padding:20px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
 .section h3{font-size:16px;font-weight:700;color:#1a3a6b;margin-bottom:14px;padding-bottom:8px;border-bottom:2px solid #e8edf5}
@@ -39,8 +39,8 @@ details>div,details>table{padding:8px 12px}
 .t2-col{background:#f8fafd;border-radius:8px;padding:14px}
 .footer-note{font-size:12px;color:#888;text-align:center;padding:12px;background:#f0f4fa;border-radius:6px;margin-top:8px;line-height:1.8}
 @media(max-width:600px){
-  .kpi-card{flex:1 1 120px;padding:12px 14px}
-  .kpi-card .value{font-size:20px}
+  .kpi-card{flex:1 1 110px;padding:12px 12px}
+  .kpi-card .value{font-size:18px}
   .t2-grid{grid-template-columns:1fr}
   table{font-size:13px}
   th,td{padding:6px 8px}
@@ -50,7 +50,7 @@ details>div,details>table{padding:8px 12px}
 <body>
 <div class="header">
   <h1>达播春12期 · 正常班快照</h1>
-  <div class="sub">数据日期：2026-05-26 &nbsp;·&nbsp; 生成时间：2026/5/27 10:37:45</div>
+  <div class="sub">数据日期：2026-05-26 &nbsp;·&nbsp; 生成时间：2026/5/27 10:52:53</div>
   <div class="badges">
     <span class="badge">📊 总目标 3300</span>
     <span class="badge">📅 切期 5/14</span>
@@ -69,13 +69,14 @@ details>div,details>table{padding:8px 12px}
 <div class="container">
   <div class="kpi-row">
     <div class="kpi-card"><div class="label">总订单</div><div class="value">495</div><div class="sub">0526当天</div></div>
+    <div class="kpi-card"><div class="label">非退款订单</div><div class="value">420</div><div class="sub">已发货/待发货/已完成</div></div>
     <div class="kpi-card"><div class="label">正常班进量</div><div class="value">382</div><div class="sub">抖音 354 / 视频号 28</div></div>
     <div class="kpi-card"><div class="label">退款率</div><div class="value">15.2%</div><div class="sub">75/495（分母=总订单）</div></div>
     <div class="kpi-card"><div class="label">加微率</div><div class="value">68.6%</div><div class="sub">262/382（分母=正常班）</div></div>
     <div class="kpi-card"><div class="label">主动加微率</div><div class="value">53.1%</div><div class="sub">203/382（分母=正常班）</div></div>
   </div>
 
-  <div class="section" id="s1"><h3>① 实时进量（T+1 进班数据）</h3><table><thead><tr><th>年级</th><th>进量</th><th>目标</th><th>进度达成</th><th>进度条</th></tr></thead><tbody><tr><td>新高一</td><td>1597</td><td>2805</td><td>56.9%</td><td><div style="background:#e8edf5;border-radius:4px;height:8px"><div style="width:57%;background:#f57c00;height:8px;border-radius:4px"></div></div></td></tr><tr><td>新高二</td><td>147</td><td>330</td><td>44.5%</td><td><div style="background:#e8edf5;border-radius:4px;height:8px"><div style="width:45%;background:#f57c00;height:8px;border-radius:4px"></div></div></td></tr><tr><td>新高三</td><td>80</td><td>165</td><td>48.5%</td><td><div style="background:#e8edf5;border-radius:4px;height:8px"><div style="width:48%;background:#f57c00;height:8px;border-radius:4px"></div></div></td></tr><tr style="font-weight:600;background:#f0f4fa"><td>合计</td><td>1824</td><td>3300</td><td>55.3%</td><td><div style="background:#e8edf5;border-radius:4px;height:8px"><div style="width:55%;background:#f57c00;height:8px;border-radius:4px"></div></div></td></tr></tbody></table><p style="font-size:12px;color:#888;margin-top:4px">⚠️ 以下数据来源于 CSV，为 T+1 进班数据，非 amaze 实时截图</p></div>
+  <div class="section" id="s1"><h3>① Amaze 实时进量</h3><table><thead><tr><th>年级</th><th>实时进量</th><th>目标</th><th>实时进度</th><th>进度条</th></tr></thead><tbody><tr><td>新高一</td><td>1606</td><td>2805</td><td>57.3%</td><td><div style="background:#e8edf5;border-radius:4px;height:8px"><div style="width:57%;background:#f57c00;height:8px;border-radius:4px"></div></div></td></tr><tr><td>新高二</td><td>154</td><td>330</td><td>46.7%</td><td><div style="background:#e8edf5;border-radius:4px;height:8px"><div style="width:47%;background:#f57c00;height:8px;border-radius:4px"></div></div></td></tr><tr><td>新高三</td><td>84</td><td>165</td><td>50.9%</td><td><div style="background:#e8edf5;border-radius:4px;height:8px"><div style="width:51%;background:#f57c00;height:8px;border-radius:4px"></div></div></td></tr><tr style="font-weight:600;background:#f0f4fa"><td>合计</td><td>1844</td><td>3300</td><td>55.9%</td><td><div style="background:#e8edf5;border-radius:4px;height:8px"><div style="width:56%;background:#f57c00;height:8px;border-radius:4px"></div></div></td></tr></tbody></table></div>
   
   <div class="section" id="s2"><h3>② 渠道对比（0526当天正常班）</h3>
     <div style="overflow-x:auto;-webkit-overflow-scrolling:touch">
@@ -84,14 +85,13 @@ details>div,details>table{padding:8px 12px}
       <tr><td>最小年轮</td><td>375</td><td>68.8%</td><td style="color:#d32f2f;font-weight:600">53.1%</td><td>15.1%</td></tr><tr><td>山东深山</td><td>3</td><td>66.7%</td><td>66.7%</td><td>0.0%</td></tr><tr><td>自然流</td><td>3</td><td>33.3%</td><td style="color:#d32f2f;font-weight:600">33.3%</td><td style="color:#d32f2f;font-weight:600">28.6%</td></tr><tr><td>领航</td><td>1</td><td>100.0%</td><td>100.0%</td><td>0.0%</td></tr>
       <tr style="font-weight:600;background:#f0f4fa"><td>大盘合计</td><td>382</td><td>68.6%</td><td>53.1%</td><td>15.2%</td></tr>
     </tbody></table></div>
-    <p style="font-size:12px;color:#888;margin-top:8px">🔴 主动加微率 < 大盘 或 退款率 > 大盘 标红</p>
+    <p style="font-size:12px;color:#888;margin-top:8px">🔴 主动加微率 &lt; 大盘 或 退款率 &gt; 大盘 标红</p>
   </div>
 
   <div class="section" id="s3"><h3>③ 年级流量达成 T+1（累计正常班）</h3><div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table><thead><tr><th>年级</th><th>预估流量</th><th>总进度</th><th>剩余预期流速</th><th>实际流速</th><th>总进量</th><th>05-21</th><th>05-22</th><th>05-23</th><th>05-24</th><th>05-25</th><th>05-26</th></tr></thead><tbody><tr><td>新高一</td><td>2805</td><td><div style="display:flex;align-items:center;gap:6px"><div style="flex:1;background:#e8edf5;border-radius:4px;height:8px"><div style="width:57%;background:#f57c00;height:8px;border-radius:4px"></div></div><span>56.9%</span></div></td><td>1208</td><td>271 <small style="color:#888">(248/233/333)</small></td><td>1597</td><td>212</td><td>329</td><td>242</td><td>248</td><td>233</td><td>333</td></tr><tr><td>新高二</td><td>330</td><td><div style="display:flex;align-items:center;gap:6px"><div style="flex:1;background:#e8edf5;border-radius:4px;height:8px"><div style="width:45%;background:#f57c00;height:8px;border-radius:4px"></div></div><span>44.5%</span></div></td><td>183</td><td>27 <small style="color:#888">(17/37/27)</small></td><td>147</td><td>12</td><td>20</td><td>34</td><td>17</td><td>37</td><td>27</td></tr><tr><td>新高三</td><td>165</td><td><div style="display:flex;align-items:center;gap:6px"><div style="flex:1;background:#e8edf5;border-radius:4px;height:8px"><div style="width:48%;background:#f57c00;height:8px;border-radius:4px"></div></div><span>48.5%</span></div></td><td>85</td><td>16 <small style="color:#888">(9/16/22)</small></td><td>80</td><td>2</td><td>17</td><td>14</td><td>9</td><td>16</td><td>22</td></tr><tr style="font-weight:600;background:#f0f4fa"><td>合计</td><td>3300</td><td><div style="display:flex;align-items:center;gap:6px"><div style="flex:1;background:#e8edf5;border-radius:4px;height:8px"><div style="width:55%;background:#f57c00;height:8px;border-radius:4px"></div></div><span>55.3%</span></div></td><td>1476</td><td>314 <small>(274/286/382)</small></td><td>1824</td><td>226</td><td>366</td><td>290</td><td>274</td><td>286</td><td>382</td></tr></tbody></table></div></div>
 
   <div class="section" id="s4"><h3>④ 渠道×年级（0526当天正常班）</h3>
-    <div style="overflow-x:auto">
-    <table><thead><tr><th>渠道</th><th>新高一</th><th>新高二</th><th>新高三</th><th>合计</th></tr></thead><tbody><tr><td>最小年轮</td><td>328</td><td>26</td><td>21</td><td>375</td></tr><tr><td>山东深山</td><td>3</td><td>0</td><td>0</td><td>3</td></tr><tr><td>自然流</td><td>2</td><td>1</td><td>0</td><td>3</td></tr><tr><td>领航</td><td>0</td><td>0</td><td>1</td><td>1</td></tr><tr style="font-weight:600;background:#f0f4fa"><td>合计</td><td>333</td><td>27</td><td>22</td><td>382</td></tr></tbody></table></div>
+    <div style="overflow-x:auto"><table><thead><tr><th>渠道</th><th>新高一</th><th>新高二</th><th>新高三</th><th>合计</th></tr></thead><tbody><tr><td>最小年轮</td><td>328</td><td>26</td><td>21</td><td>375</td></tr><tr><td>山东深山</td><td>3</td><td>0</td><td>0</td><td>3</td></tr><tr><td>自然流</td><td>2</td><td>1</td><td>0</td><td>3</td></tr><tr><td>领航</td><td>0</td><td>0</td><td>1</td><td>1</td></tr><tr style="font-weight:600;background:#f0f4fa"><td>合计</td><td>333</td><td>27</td><td>22</td><td>382</td></tr></tbody></table></div>
   </div>
 
   <div class="section" id="s5"><h3>⑤ 分达人（0526当天正常班，按渠道折叠）</h3>
